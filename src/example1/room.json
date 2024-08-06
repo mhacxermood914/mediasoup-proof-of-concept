@@ -1,0 +1,20 @@
+{
+  "room1": {
+    "participants": [
+      "lhDD9SQW_kR9Qe_VAAAD"
+    ],
+    "transports": [],
+    "consumers": [],
+    "producers": []
+  },
+  "main": {
+    "participants": [
+      "GKxtUKRyFxYx0UKQAAAB",
+      "-YpkfFjVfhAXnhunAAAB",
+      "EH_xRHar-9JBCPSdAAAB"
+    ],
+    "transports": [],
+    "consumers": [],
+    "producers": []
+  }
+}

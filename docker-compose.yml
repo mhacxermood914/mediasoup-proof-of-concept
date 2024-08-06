@@ -1,0 +1,13 @@
+version: "3"
+services:
+  linux:
+    build:
+      context: ./src/example1
+      dockerfile: Dockerfile
+    restart: "always"
+    tty: true
+    ports:
+      - "4000:4000"
+      - "10000-10200:10000-10200"
+    volumes:
+      - "C:/Users/HP/OneDrive/Documents/Project/BecomeProfessionnal/node/mediasoup-project/src:/usr/src"

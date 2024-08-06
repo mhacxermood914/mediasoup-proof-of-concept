@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <style>
+        button {
+            margin: 2;
+        }
+        tr {
+            vertical-align: top;
+        }
+        video {
+            width: 360px;
+            background-color: black;
+            padding: 10;
+            margin: 1px 1px;
+        }
+        #videoContainer{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+    
+
+        @media only screen and (max-width: 1060px) {
+            .video {
+                width: 300px;
+            }
+        }
+
+        @media only screen and (max-width: 940px) {
+            .video {
+                width: 240px;
+            }
+        }
+    </style>
+  </head>
+  <body>
+    <body>
+        <div id="videoContainer">
+        </div>
+    </body>
+  </body>
+  <footer>
+      <script src="bundle.js"></script>
+  </footer>
+</html>
