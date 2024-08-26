@@ -22963,7 +22963,7 @@ arguments[4][10][0].apply(exports,arguments)
 
 },{}],100:[function(require,module,exports){
 const io = require('socket.io-client')
-const socket = io('/mediasoup')
+const socket = io()
 // const { v4: uuidv4 } = require('uuid');
 const mediasoupclient = require('mediasoup-client')
 const videoContainer = document.getElementById('videoContainer')

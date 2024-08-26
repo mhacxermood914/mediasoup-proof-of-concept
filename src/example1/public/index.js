@@ -1,5 +1,5 @@
 const io = require('socket.io-client')
-const socket = io('/mediasoup')
+const socket = io()
 // const { v4: uuidv4 } = require('uuid');
 const mediasoupclient = require('mediasoup-client')
 const videoContainer = document.getElementById('videoContainer')
