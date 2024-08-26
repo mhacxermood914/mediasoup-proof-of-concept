@@ -10,4 +10,4 @@ services:
       - "4000:4000"
       - "10000-10200:10000-10200"
     volumes:
-      - "/opt/mediasoup-project/src:/usr/src"
+      - "/opt/mediasoup-visio/src:/usr/src"
