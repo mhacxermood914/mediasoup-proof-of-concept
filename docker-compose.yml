@@ -1,10 +1,12 @@
-version: "3"
 services:
   linux:
     build:
       context: ./src/example1
       dockerfile: Dockerfile
     restart: "always"
+    privileged: true
+    security_opt:
+      - seccomp=unconfined
     tty: true
     ports:
       - "4000:4000"
